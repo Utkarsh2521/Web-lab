@@ -1,0 +1,17 @@
+.image-container {
+    position: relative;  /* Ensures absolute positioning works inside */
+    display: flex;
+    float:inline-start;
+}
+body{
+    background-color: rgb(223, 195, 161);
+}
+.shadow-text {
+    position: absolute;
+    top: 50px;  
+    left: 10px;  
+    text-shadow: 2px 2px 5px rgb(122, 81, 81);
+    font-size: 20px;
+    color: rgb(224, 22, 22);
+    z-index: 10;  /* Ensures text appears above the image */
+}
